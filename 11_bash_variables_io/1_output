@@ -6,3 +6,5 @@ name='ana'
 
 echo "Hello $name"
 
+echo "Hi $name"
+
