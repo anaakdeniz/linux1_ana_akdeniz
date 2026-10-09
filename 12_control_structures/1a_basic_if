@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+age=$1
+if [[ $age -ge 18 ]]; then
+      echo "you are adult"
+elif [[ $age -ge 12 ]]; then
+        echo "you are a teenager"
+
+else
+            echo "you are too young"
+
+fi 
+
+echo "Program continues here ..."
